@@ -1,138 +1,274 @@
-# 🌌 TechScope AI
+# 🌌 TechScope AI — Web Technology & Security Exposure Detector
 
-**The Ultimate Web Technology & Security Exposure Detector**
-
-> An advanced, cyberpunk-themed intelligence platform designed to analyze, dissect, and visualize the technology stack and security posture of any given target URL.
-
-<div align="center">
-  <img src="client/public/vite.svg" alt="TechScope AI Logo" width="100"/>
-  <br/>
-  <p>
-    <b>Analyze</b> stacks · <b>Discover</b> vulnerabilities · <b>Compare</b> intelligence
-  </p>
-</div>
+<p align="center">
+  <img src="client/public/vite.svg" width="100" />
+  <h3 align="center">Analyze · Detect · Compare · Visualize</h3>
+  <p align="center"><b>Cyber Intelligence Dashboard for Web Technology & Risk Exposure Analysis</b></p>
+</p>
 
 ---
 
-## ⚡ Core Features
+# 🚀 Overview
 
-- 🕵️ **Deep Technology Detection**: Instantly identify frontend frameworks (React, Next.js, Vue, Svelte), backend languages (Node.js, PHP, Python), CMS platforms (WordPress, Shopify), Analytics tools, CDNs, and UI libraries (Tailwind, Bootstrap).
-- 🛡️ **AI Risk Exposure Analysis**: Evaluates HTTP response headers and detected technologies to calculate a composite `AI Risk Score` (0-100) and assign a recognizable Security Grade (A+ to F).
-- 📊 **Dynamic Visualizations**: Utilizes Recharts to render beautiful, interactive "Stack Composition" (Donut charts) and "Exposure Mapping" (Radar charts) for deep analytical insight.
-- ⚖️ **Compare Intelligence**: Run side-by-side comparative scans of two discrete URLs. Automatically calculates Risk Differences, Tech Stack Uniqueness, and Security Header Gaps to mathematically determine the "Safer Target".
-- 💾 **Zero-Database Architecture**: Stores scan history locally via a high-performance JSON file system handler `scan-history.json`, ensuring absolute privacy and zero external database dependencies.
-- 🎨 **Premium Cyber Aesthetic**: Built with React, Tailwind CSS (v4), and Framer Motion for a stunning, responsive, dark-mode-first User Experience featuring glassmorphism cards and neon typography.
+**TechScope AI** is an advanced, cyberpunk-themed Web Technology Detector designed to analyze, visualize, and compare the technology stack and security exposure of any website in real-time.
 
----
+It performs deep analysis of:
+- Frontend frameworks (React, Vue, Next.js)
+- Backend technologies (Node, PHP, Python)
+- CMS platforms (WordPress, Shopify)
+- Security headers & exposure risks
+- Comparative intelligence between two targets
 
-## 🛠️ Tech Stack Architecture
-
-**Frontend Client:**
-
-- **Framework**: React 18 (Vite compiler for HMR and lightning-fast builds)
-- **Styling**: Tailwind CSS v4 + `clsx` & `tailwind-merge` for utility class manipulation.
-- **Animations**: Framer Motion
-- **Visuals & Icons**: Recharts (Data Visualization), Lucide React (Icons)
-- **State Management**: Zustand
-- **Routing**: React Router DOM
-- **UI Components**: Radix UI primitives + Custom styled `shadcn/ui`-inspired components.
-
-**Backend Server:**
-
-- **Runtime**: Node.js + Express
-- **Language**: TypeScript (`tsc` compiler)
-- **Scanning Engine**: Custom Regex heuristics mapped against HTML DOM, Scripts, Cookies, and HTTP Headers.
-- **Network Protocol**: Puppeteer (Headless Browser integration for dynamic SPA scraping) and Axios.
-- **Data Persistence**: Native Node `fs` (File System) operations.
+> ⚡ Built with a Zero-Database Architecture for maximum privacy and Git-friendly deployment.
 
 ---
 
-## 🚀 Quick Start & Installation
+# ✨ Core Features
 
-TechScope AI is configured as a monolithic workspace, meaning you can install and run both the client and the server from the root directory with a single terminal session.
+## 🕵️ Deep Technology Detection
+- Detects frameworks, libraries, CMS, CDN, and analytics tools
+- Uses DOM parsing + headers + script fingerprinting
 
-### Prerequisites
+## 🛡️ AI Risk Exposure Analysis
+- AI Risk Score (0–100)
+- Security Grade (A+ to F)
+- Exposure Mapping (Radar Chart)
+- Header weakness detection (CSP, HSTS, etc.)
 
-Ensure you have **Node.js (v18+)** and **npm** installed on your system.
+## ⚖️ Compare Intelligence (Premium Module)
+- Side-by-side comparison of two URLs
+- Risk difference calculation
+- Safer target identification
+- Tech stack inconsistencies detection
+- Header discrepancy analysis
 
-### 1. Clone the repository
+## 📊 Advanced Visualizations
+- Donut Charts (Stack Composition)
+- Radar Charts (Exposure Mapping)
+- Risk Meters & Grade Badges
 
-\`\`\`bash
-git clone <https://github.com/your-username/TechScope.git>
-cd TechScope
-\`\`\`
+## 💾 Zero Database Architecture (Git-Friendly)
+- No MongoDB / Supabase / Firebase
+- Local JSON file storage
+- Fully offline compatible
+- Privacy-first design
 
-### 2. Install Dependencies (Root Command)
+## 📄 Export PDF Reports
+- Cyber-themed security intelligence reports
+- Includes Risk Score, Grade, Tech Stack & Headers
 
-This will install all node modules for both the frontend `client/` and backend `server/` seamlessly.
-\`\`\`bash
-npm run install:all
+---
 
-# Or manually
+# 🏗️ Complete Project Architecture
 
-# cd server && npm install && cd ../client && npm install
+```text
+TechScopeAI/
+│
+├── client/                    # Frontend (React + Vite)
+│   ├── src/
+│   │   ├── components/        # UI Components (Cards, Charts, Risk Panels)
+│   │   ├── pages/             # Dashboard, Compare, Logs
+│   │   ├── store/             # Zustand State Management
+│   │   ├── utils/             # PDF Exporter, Validators
+│   │   ├── services/          # API Communication Layer
+│   │   └── styles/            # Tailwind + Global CSS
+│   └── public/                # Static Assets & Icons
+│
+├── server/                    # Backend (Node + Express + TypeScript)
+│   ├── controllers/           # API Controllers
+│   ├── routes/                # API Route Definitions
+│   ├── services/              # Detection Engine & Risk Engine
+│   ├── utils/                 # Parser, Scanner, Comparators
+│   └── data/
+│       └── scan-history.json  # Local Storage (No Database)
+│
+├── package.json               # Root Workspace Scripts
+└── README.md
+```
 
-\`\`\`
+---
 
-### 3. Start the Development Server
+# 🧠 System Working — Block Diagram
 
-Our unified dev script runs both the Vite Client and the Node Server concurrently.
-\`\`\`bash
+```text
+                ┌─────────────────────────┐
+                │       User Input        │
+                │   (Target URL / Compare)│
+                └─────────────┬───────────┘
+                              │
+                              ▼
+                ┌─────────────────────────┐
+                │   React Cyber Dashboard │
+                │  (Scanner + Compare UI)│
+                └─────────────┬───────────┘
+                              │ API Calls
+                              ▼
+                ┌─────────────────────────┐
+                │      Express Server     │
+                │   (REST API Layer)     │
+                └─────────────┬───────────┘
+                              │
+          ┌───────────────────┼───────────────────┐
+          ▼                   ▼                   ▼
+ ┌──────────────┐   ┌────────────────┐   ┌────────────────┐
+ │ Tech Detector│   │ Risk Engine    │   │ Compare Engine │
+ │ (HTML + JS)  │   │ (Score + Grade)│   │ (A vs B Logic) │
+ └──────────────┘   └────────────────┘   └────────────────┘
+          │                   │                   │
+          └──────────────┬────┴──────────────┬────┘
+                         ▼                   ▼
+                ┌─────────────────────────┐
+                │  JSON Storage Handler   │
+                │ (scan-history.json)     │
+                └─────────────┬───────────┘
+                              ▼
+                ┌─────────────────────────┐
+                │  Visual Analytics Layer │
+                │ (Charts, Risk UI, Logs) │
+                └─────────────────────────┘
+```
+
+---
+
+# ⚙️ Tech Stack
+
+## Frontend
+- React 18 + Vite
+- TypeScript (Strict Mode)
+- Tailwind CSS v4
+- Framer Motion (Animations)
+- Recharts (Data Visualization)
+- Zustand (State Management)
+- React Router DOM
+
+## Backend
+- Node.js + Express
+- TypeScript
+- Puppeteer (Headless Scraping)
+- Axios (HTTP Requests)
+- Cheerio (HTML Parsing)
+- Native FS (Local Storage)
+
+---
+
+# 📦 Installation & Setup
+
+## 🔹 Prerequisites
+- Node.js v18+
+- npm or yarn
+
+---
+
+# 🖥️ Run Client & Server (Recommended for Full Functionality)
+
+> ⚠️ IMPORTANT: Run client and server separately for the fully-functional project.
+
+## 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/LoganthP/TechScopeAI-Web-Technology-Detector.git
+cd TechScopeAI-Web-Technology-Detector
+```
+
+## 2️⃣ Install Dependencies
+
+### Install Server Dependencies
+```bash
+cd server
+npm install
+```
+
+### Install Client Dependencies
+```bash
+cd ../client
+npm install
+```
+
+---
+
+# ▶️ Running the Project (Development Mode)
+
+## 🚀 Start Backend Server
+```bash
+cd server
 npm run dev
-\`\`\`
+```
+Backend runs on:
+```
+http://localhost:3000
+```
 
-- **Frontend Client**: `http://localhost:5173`
-- **Backend API API**: `http://localhost:3000`
-
----
-
-## 📡 API Documentation
-
-TechScope AI features a clean RESTful API for programmatic access to the detection engine.
-
-### `POST /api/scan`
-
-Initiates a deep scan of a single target.
-
-- **Body**: `{ "url": "https://example.com" }`
-- **Response**: Returns detected components, raw headers, payload size, and Risk Score calculations.
-
-### `POST /api/compare`
-
-Executes dual-parallel scans and calculates differences.
-
-- **Body**: `{ "url1": "https://example.com", "url2": "https://demo.com" }`
-- **Response**: Returns comprehensive data for `targetA`, `targetB`, and a `comparison` object calculating safe targets and tech gaps.
-
-### `GET /api/history`
-
-Retrieves the local history of previously scanned URLs.
+## 🎨 Start Frontend Client
+```bash
+cd client
+npm run dev
+```
+Frontend runs on:
+```
+http://localhost:5173
+```
 
 ---
 
-## 🛡️ Security & Privacy Notice
+# 📡 API Endpoints
 
-> **IMPORTANT**: This application performs active HTTP requests, headless browser scraping, and header analysis against public-facing URLs. It does *not* execute intrusive penetration testing payloads. Always ensure you have authorization to scan target infrastructure.
+## POST /api/scan
+Scans a single target URL
+```json
+{ "url": "https://example.com" }
+```
 
-Additionally, this project explicitly avoids external cloud database requirements (like PostgreSQL, MongoDB, or Supabase). All local scan history resides wholly on the host machine within `server/data/scan-history.json`.
+## POST /api/compare
+Compare two websites intelligence
+```json
+{
+  "url1": "https://siteA.com",
+  "url2": "https://siteB.com"
+}
+```
+
+## GET /api/history
+Fetch scan telemetry logs from local JSON storage
 
 ---
 
-## 👨‍💻 Development & Build Process
+# 📊 Compare Intelligence Workflow
 
-If you wish to build the application for deployment or production use:
+1. Enter Target A & Target B URLs
+2. Dual parallel scanning engine executes
+3. Risk engine calculates score & grade
+4. Comparison engine detects:
+   - Risk Difference
+   - Tech Stack Gaps
+   - Header Discrepancies
+5. AI determines the Safer Target
+6. Visual comparison dashboard rendered
 
-\`\`\`bash
+---
 
-# From the root directory
+# 🛡️ Security & Privacy
 
+- No external databases used
+- No cloud tracking
+- Local JSON storage only
+- Safe read-only analysis (no intrusive attacks)
+- Fully offline compatible
+
+---
+
+# 🧪 Build for Production
+
+```bash
+# From root
 npm run build
-\`\`\`
-*(This will compile the TypeScript Node.js backend to `/dist` and package the React Vite frontend)*.
+```
+
+This will:
+- Compile TypeScript backend
+- Build optimized Vite frontend
 
 ---
 
 <p align="center">
-  <i>Developed to establish absolute visibility over the modern web.</i><br/>
-  <b>System Integrity: SECURE</b>
+  <b>TechScope AI</b> — Establish Absolute Visibility Over The Modern Web 🌐<br/>
+  Generated on: 2026-02-25
 </p>
