@@ -1,0 +1,16 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model ScanHistory {
+  id           String   @id @default(uuid())
+  url          String
+  technologies String   // stored as stringified JSON
+  riskScore    String
+  createdAt    DateTime @default(now())
+}

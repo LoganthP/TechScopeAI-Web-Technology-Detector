@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+client/dist/
+client/node_modules/
+server/dist/
+server/node_modules/
+server/data/*.json
+!server/data/scan-history.json
+# Keep the history file template if needed, but usually data is ignored

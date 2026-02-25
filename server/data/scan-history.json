@@ -1,0 +1,484 @@
+[
+  {
+    "id": "31d8f1e9-7c53-4b20-81c9-d2423b6374bf",
+    "url": "https://cloudflare.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T16:07:09.373Z"
+  },
+  {
+    "id": "ae988bab-4fd6-4bc0-831a-2ec98ea99ed1",
+    "url": "https://securityheaders.com/",
+    "technologies": [
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "F",
+    "createdAt": "2026-02-25T15:57:00.522Z"
+  },
+  {
+    "id": "593d09c6-b819-4de3-ab85-a296c05dbe75",
+    "url": "https://developer.mozilla.org/en-US/observatory",
+    "technologies": [],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T15:56:43.953Z"
+  },
+  {
+    "id": "273cfafe-e579-4a8d-b8c5-cb60b7538e1d",
+    "url": "https://hostedscan.com/owasp-vulnerability-scan",
+    "technologies": [
+      {
+        "name": "Next.js",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "D",
+    "createdAt": "2026-02-25T15:37:50.254Z"
+  },
+  {
+    "id": "2ce8a5a6-5f52-495a-a714-2f68fe639f38",
+    "url": "https://cloudflare.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T15:26:54.850Z"
+  },
+  {
+    "id": "d23a0b89-d00b-4746-9d3c-0560244d50c3",
+    "url": "https://apple.com",
+    "technologies": [],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T15:26:32.550Z"
+  },
+  {
+    "id": "e9263dca-1249-40fb-99e0-6ec6404fd398",
+    "url": "https://www.serpworx.com/check-security-headers/",
+    "technologies": [
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "F",
+    "createdAt": "2026-02-25T15:22:11.601Z"
+  },
+  {
+    "id": "47b54509-784f-4d72-a6fc-dfbc704a00b7",
+    "url": "https://cloudflare.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T15:21:48.266Z"
+  },
+  {
+    "id": "c0694d0d-1991-432c-8996-7c74e364c5de",
+    "url": "https://www.skills.google/paths/420/course_templates/1295",
+    "technologies": [],
+    "riskScore": "C",
+    "createdAt": "2026-02-25T15:16:23.989Z"
+  },
+  {
+    "id": "5843a2ff-a099-4b7d-a7a1-8d3ca2d05d0e",
+    "url": "https://cloudflare.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T15:03:58.356Z"
+  },
+  {
+    "id": "48bda495-3a9f-4473-bff9-ef32158423a4",
+    "url": "https://apple.com",
+    "technologies": [],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T14:30:08.393Z"
+  },
+  {
+    "id": "78df2400-a598-427a-8ec5-c6dc56c905d8",
+    "url": "https://cloudflare.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T14:29:55.679Z"
+  },
+  {
+    "id": "a1915624-fa3b-4472-8428-096d80ebf1dd",
+    "url": "https://cloudflare.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T14:18:26.426Z"
+  },
+  {
+    "id": "775b5ace-d416-4d71-9843-0ba65d9c070f",
+    "url": "https://www.skills.google/paths/420/course_templates/1295",
+    "technologies": [],
+    "riskScore": "C",
+    "createdAt": "2026-02-25T14:11:31.250Z"
+  },
+  {
+    "id": "5fb14771-ccef-4c29-a0fe-e76fff83085c",
+    "url": "https://cloudflare.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T14:05:55.490Z"
+  },
+  {
+    "id": "ed69539c-ab6b-44bf-8ef3-87cb30280f9d",
+    "url": "https://www.ssllabs.com/ssltest/",
+    "technologies": [
+      {
+        "name": "Apache",
+        "category": "Server",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T14:02:41.922Z"
+  },
+  {
+    "id": "508bffab-a504-4405-93ae-c900e0ec8050",
+    "url": "https://www.ssllabs.com/ssltest/",
+    "technologies": [
+      {
+        "name": "Apache",
+        "category": "Server",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T14:00:08.318Z"
+  },
+  {
+    "id": "8221f366-56ab-4c00-ae8d-cede51ddd971",
+    "url": "https://www.ssllabs.com/ssltest/",
+    "technologies": [
+      {
+        "name": "Apache",
+        "category": "Server",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T13:54:17.087Z"
+  },
+  {
+    "id": "59cfd5cb-7de4-4ead-b297-7bf495d3b78f",
+    "url": "https://www.ssllabs.com/ssltest/",
+    "technologies": [
+      {
+        "name": "Apache",
+        "category": "Server",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T13:47:06.512Z"
+  },
+  {
+    "id": "c9a9f630-dac0-4fb3-a0e7-5c681244a125",
+    "url": "https://cloudflare.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T13:41:25.028Z"
+  },
+  {
+    "id": "dfb38dce-4caa-4a2d-a6c7-51fc9a95c291",
+    "url": "https://cloudflare.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T13:36:31.771Z"
+  },
+  {
+    "id": "ef6f8fbc-b096-4e37-8112-dacca011224c",
+    "url": "https://cloudflare.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T13:24:41.792Z"
+  },
+  {
+    "id": "9a69653e-f504-40f2-b26f-6e4c63850ae2",
+    "url": "https://apple.com",
+    "technologies": [],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T13:10:00.079Z"
+  },
+  {
+    "id": "01ab6e22-a6de-433b-96e4-989d050587f4",
+    "url": "https://cloudflare.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T12:54:49.543Z"
+  },
+  {
+    "id": "1ad484e8-a09d-46a9-9242-1f1043cc1445",
+    "url": "https://google.com",
+    "technologies": [],
+    "riskScore": "F",
+    "createdAt": "2026-02-25T09:12:50.855Z"
+  },
+  {
+    "id": "3c6a605e-4382-46c9-b678-61eaf8f12b72",
+    "url": "https://cloudflare.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "B",
+    "createdAt": "2026-02-25T08:59:23.117Z"
+  },
+  {
+    "id": "ada1bd82-5102-43f7-8619-e74eb42df2ac",
+    "url": "https://example.com",
+    "technologies": [
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "F",
+    "createdAt": "2026-02-25T08:54:31.434Z"
+  },
+  {
+    "id": "2138d492-4cbd-4b1a-9b70-d1625d1c6a9a",
+    "url": "https://developer.mozilla.org/en-US/observatory",
+    "technologies": [],
+    "riskScore": "Low",
+    "createdAt": "2026-02-25T08:42:11.042Z"
+  },
+  {
+    "id": "02d443b4-737a-45fb-81a9-719ba25068ff",
+    "url": "https://cloudflare.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "Frontend",
+        "confidence": 95
+      },
+      {
+        "name": "Cloudflare",
+        "category": "Server",
+        "confidence": 95
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "UI",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "Low",
+    "createdAt": "2026-02-25T08:40:00.591Z"
+  },
+  {
+    "id": "0cf096a7-e2da-497e-a2d5-881d0b8f2beb",
+    "url": "https://github.com/LoganthP?tab=repositories",
+    "technologies": [
+      {
+        "name": "React",
+        "category": "Frontend",
+        "confidence": 95
+      }
+    ],
+    "riskScore": "Low",
+    "createdAt": "2026-02-25T08:39:19.409Z"
+  }
+]
