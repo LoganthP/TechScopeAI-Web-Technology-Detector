@@ -1,4 +1,15 @@
 # 🌌 TechScope AI — Web Technology & Security Exposure Detector
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-React%2018-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Styling-TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Server-Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Charts-Recharts-FF6384?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Scraper-Puppeteer-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=white"/>
+  <img src="https://img.shields.io/badge/State-Zustand-000000?style=for-the-badge"/>
+</p>
 
 <p align="center">
   <img src="client/public/vite.svg" width="100" />
