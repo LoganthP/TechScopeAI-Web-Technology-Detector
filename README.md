@@ -1,4 +1,4 @@
-# 🌌 TechScope AI — Web Technology & Security Exposure Detector
+<h1 align="center">🌌 TechScope AI — Web Technology & Security Exposure Detector</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Frontend-React%2018-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
   <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
