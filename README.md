@@ -100,45 +100,43 @@ TechScopeAI/
 ---
 
 # 🧠 System Working — Block Diagram
-
-```text
-                ┌─────────────────────────┐
-                │       User Input        │
-                │   (Target URL / Compare)│
-                └─────────────┬───────────┘
-                              │
-                              ▼
-                ┌─────────────────────────┐
-                │   React Cyber Dashboard │
-                │  (Scanner + Compare UI)│
-                └─────────────┬───────────┘
-                              │ API Calls
-                              ▼
-                ┌─────────────────────────┐
-                │      Express Server     │
-                │   (REST API Layer)     │
-                └─────────────┬───────────┘
-                              │
-          ┌───────────────────┼───────────────────┐
-          ▼                   ▼                   ▼
- ┌──────────────┐   ┌────────────────┐   ┌────────────────┐
- │ Tech Detector│   │ Risk Engine    │   │ Compare Engine │
- │ (HTML + JS)  │   │ (Score + Grade)│   │ (A vs B Logic) │
- └──────────────┘   └────────────────┘   └────────────────┘
-          │                   │                   │
-          └──────────────┬────┴──────────────┬────┘
-                         ▼                   ▼
-                ┌─────────────────────────┐
-                │  JSON Storage Handler   │
-                │ (scan-history.json)     │
-                └─────────────┬───────────┘
-                              ▼
-                ┌─────────────────────────┐
-                │  Visual Analytics Layer │
-                │ (Charts, Risk UI, Logs) │
-                └─────────────────────────┘
+```mermaid
+flowchart TD
+    A[User Inputs Target URL] --> B[React + Vite Cyber Dashboard]
+    B --> C[Client Validation & Preprocessing]
+    C --> D[REST API Request /scan]
+    
+    D --> E[Express.js Backend Server]
+    E --> F[Request Sanitization & Rate Control]
+    
+    F --> G[Core Analysis Orchestrator]
+    
+    G --> H[Technology Detection Engine]
+    G --> I[Security Exposure Analyzer]
+    G --> J[Header & Metadata Analyzer]
+    G --> K[Script & Framework Fingerprinting]
+    
+    H --> L[Tech Signature Library]
+    I --> M[Vulnerability Heuristics]
+    J --> N[HTTP Headers Inspection]
+    K --> O[JS Pattern & DOM Analysis]
+    
+    L --> P[Confidence Scoring Engine]
+    M --> P
+    N --> P
+    O --> P
+    
+    P --> Q[Structured Analysis Report]
+    Q --> R[Prisma ORM Layer]
+    R --> S[(Database - Scan Metadata)]
+    
+    Q --> T[JSON Response to Frontend]
+    
+    T --> U[Cyber UI Visualization Layer]
+    U --> V[Technology Stack Panels]
+    U --> W[Security Risk Charts & Gauges]
+    U --> X[Detailed Exposure Breakdown]
 ```
-
 ---
 
 # ⚙️ Tech Stack
